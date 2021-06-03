@@ -46,7 +46,7 @@ instructions()
 
 def status(): 
   while True: #Starting a loop
-    shutdown = input("\nDo you wish to play this quiz?  \na)Yes\nb)no\nEnter here:")
+    shutdown = input("\nDo you wish to play this quiz?  \na)Yes\nb)no\nEnter here:").upper()
     if shutdown == "YES" or shutdown == "Y" or shutdown == "A" or shutdown == "":
       break
     else:
