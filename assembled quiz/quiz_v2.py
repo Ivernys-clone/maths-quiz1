@@ -103,7 +103,6 @@ for q in questions.keys():
         score+=1
     else:
         print("\n#################\nYou got it wrong!\n#################\n")
-        print("The correct answer is",answer)
 #Outputs the users score and percentage
 print("\n**************************************************\n")
 print("Thank you for using Jim's maths quiz")
